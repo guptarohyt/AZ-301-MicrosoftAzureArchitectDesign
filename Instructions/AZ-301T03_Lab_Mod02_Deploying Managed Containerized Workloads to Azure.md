@@ -129,7 +129,7 @@
 1. In the Microsoft Edge window, in the Azure portal, at the **Cloud Shell** prompt, type the following command and press **Enter** in order to deploy the **nginx** image from the Docker Hub:
 
     ```
-    kubectl run aad0402-akscluster --image=nginx --replicas=1 --port=80
+    kubectl create deployment aad0402-akscluster --image=nginx --replicas=1 --port=80
     ```
 
     > **Note**: Make sure to use lower case letters when typing the name of the deployment. You will also receive a notification that this command is deprecated and will be removed in a future version, but successfully created the cluster.
