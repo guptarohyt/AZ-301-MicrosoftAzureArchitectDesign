@@ -309,7 +309,7 @@
 
 #### Task 1: Retrieve the value of the key vault Resource Id parameter
 
-1. At the top of the portal, click the **Cloud Shell** icon to open a new Clould Shell instance.
+1. At the top of the portal, click the **Cloud Shell** icon to open a new Cloud Shell instance.
 
 1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a variable which value designates the name of the resource group that will contain the hub virtual network:
 
